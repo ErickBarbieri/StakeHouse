@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Stakehouse</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1 class="header__h1">The Stakehouse!</h1>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="restaurante.html">Retaurante</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2 class="hero__h2">Bem-Vindo!</h2>
+            <figure>
+                <img src="../img/home.jpg" alt="Imagem de uma Picanha">
+                <figcaption class="offscreen">Picanha ao ponto</figcaption>
+            </figure>
+        </section> <hr>
+
+        <main class="main">
+            <section id="menu" class="main__section menu">
+                <h2 class="menu__h2">Nosso Menu</h2>
+                <table class="menu__container">
+                    <caption class="offscreen">Menu Principal</caption>
+                    <thead>
+                        <tr>
+                            <th class="menu_header" scope="col">Cortes</th>
+                            <th class="menu_header" scope="col">Quant</th>
+                            <th class="menu_header" scope="col">Preços</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="menu__item menu__cr pic" rowspan="2">Picanha</td>
+                            <td class="menu__item">250g</td>
+                            <td class="menu__item canto__preco">R$24,90</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">500g</td>
+                            <td class="menu__item">R$44,90</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item menu__sf" rowspan="2">T-Bone</td>
+                            <td class="menu__item">250g</td>
+                            <td class="menu__item">R$29,90</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">500g</td>
+                            <td class="menu__item">R$54,90</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item menu__dr" rowspan="2">Wagyu</td>
+                            <td class="menu__item">250g</td>
+                            <td class="menu__item">R$249,90</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">500g</td>
+                            <td class="menu__item">R$449,90</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="menu__item menu__cs" colspan="3"> Batata + Bebida  R$29,90</td>
+                        </tr>
+                    </tfoot>
+                </table> <br>
+            </section>
+        </main>
+    </body>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;</span> 
+            <span class="nowrap">The Stakehouse</span>
+        </p>
+    </footer>
+</html>
